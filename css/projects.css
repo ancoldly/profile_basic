@@ -1,0 +1,123 @@
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #00FF99;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0,0,0, .2); 
+    --vang-color: #fad00c;
+    --body-card: #282a36;
+    --bg-card: #44475a;
+}
+
+.home-projects {
+    width: 100%;
+    margin: 5rem 0;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: .1rem solid #6272a4;
+}
+
+.home-projects .title-projects span {
+    color: cornflowerblue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-projects .title-projects h1 {
+    font-size: 4.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.home-projects .home-projects-box {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+ 
+.home-projects .home-projects-box .projects-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    gap: 2rem;
+}
+
+.home-projects-box .projects-content .title-projecs-next {
+    width: 35%;
+    height: 100%;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.home-projects-box .projects-content .title-projecs-next h1 {
+    font-size: 2.6rem;
+    color: var(--text-color);
+}
+
+.home-projects-box .projects-content .title-projecs-next p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.home-projects-box .projects-content .title-projecs-next span {
+    border-bottom: cornflowerblue solid .2rem;
+    margin-right: 2rem;
+}
+
+.home-projects-box .projects-content .title-projecs-next i {
+    margin-left: .5rem;
+}
+
+.home-projects-box .projects-content .title-projecs-next a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.home-projects-box .projects-content .project-slide {
+    width: 65%;
+    height: 100%;
+}
+
+.home-projects-box .projects-content .project-slide img {
+    width: 100%;
+    height: 100%;
+    border: .1rem solid #6272a4;
+    border-radius: .5rem;
+}
+
+.home-projects button {
+    width: 20%;
+    height: 5rem;
+    background: #44475a;
+    border-radius: 5rem;
+    border: .2rem solid #44475a;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.home-projects button a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-projects button:hover {
+    background: transparent;
+    transition: .3s ease-in-out;
+}
+
+.home-projects button:hover i {
+    transform: translateX(1rem);
+    transition: .3s ease-in-out;
+}
+
+.home-projects button:hover a {
+    color: #44475a;
+    transition: .3s ease-in-out;
+}

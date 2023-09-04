@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="path/to/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./css/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Hồng An</title>
+    <link rel="icon" href="/image/user.png">
+</head>
+<body> 
+    <div class="body-container">
+        <div class="loading-bar"></div>
+        <div class="loading">
+            <div class="loading-icon"></div>
+        </div>
+        <header class="header">
+            <div class="avt-header active select-info">
+                <img src="./image/avt.jpg" alt="">
+            </div>
+            
+            <nav class="nav">
+                <a href="./index.html" class="active-mark">Home</a>
+                <a href="./page/about.html" class="active-mark">About</a>
+                <a href="./page/project.html" class="active-mark">Projects</a>
+                <a href="./page/project.html">Blog</a>
+            </nav>
+    
+            <div><button class="fa-solid fa-moon" id="darkMode-icon"></button></div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="title-home">
+                <h1>Hello, I'm <span>Nguyen Hong An</span>. I am a computer science student. Welcome to my website.<i class="fa-solid fa-hands-bubbles"></i></h1>
+            </div>
+
+            <div class="mark-home">
+                <span>∿</span>
+                <span>∿</span>
+                <span>∿</span>
+            </div>
+
+            <div class="page-home-index">
+                <div class="page-home active">
+                    <div class="top-page">
+                        <i class="fa-solid fa-circle-nodes fa-spin x-top"></i>
+                        <h1><i class="fa-solid fa-user-graduate"></i><span class="text-light">MY</span> INFO PAGE</h1>
+                    </div>
+    
+                    <div class="bot-page">
+                        <div class="left-bot">
+                            <div class="about-info select-info">
+                                <i class="fa-solid fa-address-card"></i>
+                                <h1>ABOUT <span>ME</span></h1>
+                            </div>
+                            
+                            <div class="resume-info select-info">
+                                <i class="fa-solid fa-newspaper"></i>
+                                <h1>RESUME <span>ME</span></h1>
+                            </div>
+        
+                            <div class="story-info select-info">
+                                <i class="fa-solid fa-swatchbook"></i>
+                                <h1>STORY <span>ME</span></h1>
+                            </div>
+        
+                            <div class="hoby-info select-info">
+                                <i class="fa-solid fa-robot"></i>
+                                <h1>HOBY <span>ME</span></h1>
+                            </div>
+                        </div>
+    
+                        <div class="right-bot">
+                            <img src="./image/avt.jpg" alt="" class="avt-bot">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-home">
+                    <div class="top-page">
+                        <i class="fa-solid fa-xmark x-info"></i>
+                        <h1><i class="fa-solid fa-address-card"></i></i><span class="text-light">ABOUT</span> ME</h1>
+                    </div>
+    
+                    <div class="bot-page-info">
+                        <div class="title-info-index">
+                            <h1>A litter about me<div></div></h1>
+                        </div>
+
+                        <div class="info-index">
+                            <div class="info-box">
+                                <div class="info">
+                                    <div class="title-info">
+                                        <h1>INFORMATION<div></div></h1>
+                                    </div>
+
+                                    <div class="info-content">
+                                        <p><i class="fa-solid fa-angles-right"></i>Full Name - <span>Nguyễn Hồng An</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Birthday - <span>18-07-2004</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Home Town - <span>Quảng Ngãi</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Live In - <span>Đà Nẵng</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Phone - <span>+84779***454</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Gmail - <span>onlyanwriter1@gmail.com</span></p>
+                                        <p><i class="fa-solid fa-angles-right"></i>Username - <span>AnColdly</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="social-info">
+                                    <div class="title-info">
+                                        <h1>SOCIAL MEDIA<div></div></h1>
+                                    </div>
+
+                                    <div class="social-content">
+                                        <button><a href="https://www.facebook.com/user.pyt" target="_blank"><i class="fa-brands fa-facebook"></i></a></button>
+                                        <button><a href="https://www.instagram.com/h._ean/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
+                                        <button><a href="https://github.com/ancoldly" target="_blank"><i class="fa-brands fa-github"></i></a></button>
+                                        <button><a href="https://www.tiktok.com/@hgan187" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
+                                    </div>
+
+                                    <button class="contact-info"><i class="fa-solid fa-envelope"></i><a href="https://www.facebook.com/user.pyt" target="_blank">Contact Me</a></button>
+                                </div>
+                            </div>
+
+                            <div class="image-info">
+                                <img src="./image/about-me2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-home">
+                    <div class="top-page">
+                        <i class="fa-solid fa-xmark x-info"></i>
+                        <h1><i class="fa-solid fa-newspaper"></i><span class="text-light">RESUME</span> ME</h1>
+                    </div>
+    
+                    <div class="bot-page-info">
+                        <div class="resume-index">
+                            <div class="resume-box">
+                                <div class="resume-slide">
+                                    <div class="skill">
+                                        <div class="title-skill">
+                                            <h1>SKILLS<div></div></h1>
+                                        </div>
+
+                                        <div class="skill-content">
+                                            <div class="skill-box">
+                                                <div class="title-skill-box">
+                                                    <h1>CODER</h1>
+                                                </div>
+
+                                                <div class="skill-box-content">
+                                                    <span><i class="fa-solid fa-angles-right"></i>HTML</span>
+
+                                                    <div class="box-skill-next">
+                                                        <div class="skill-next-one"></div>
+                                                    </div>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>CSS</span>
+
+                                                    <div class="box-skill-next">
+                                                        <div class="skill-next-two"></div>
+                                                    </div>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>JavaScript</span>
+
+                                                    <div class="box-skill-next">
+                                                        <div class="skill-next-three"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="skill-box">
+                                                <div class="title-skill-box">
+                                                    <h1>LEARN ON SCHOOL</h1>
+                                                </div>
+
+                                                <div class="skill-box-content">
+                                                    <span><i class="fa-solid fa-angles-right"></i>C++</span>
+
+                                                    <div class="box-skill-next">
+                                                        <div class="skill-next-four"></div>
+                                                    </div>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>Java</span>
+
+                                                    <div class="box-skill-next">
+                                                        <div class="skill-next-five"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="experience">
+                                        <div class="title-experience">
+                                            <h1>EXPERIENCE<div></div></h1>
+                                        </div>
+
+                                        <div class="experience-content">
+                                            <div class="experience-box">
+                                                <div class="title-experience-box">
+                                                    <h1>LIFE HISTORY</h1>
+                                                </div>
+
+                                                <div class="experience-box-content">
+                                                    <span><i class="fa-solid fa-angles-right"></i>18-07-2004 - Ngày Chào Đời</span>
+                                                    
+                                                    <p>Ngày mà mẹ tôi đau nhất, ngày mà cả hai mẹ con đều khóc. Một cậu bé ốm yếu da vàng 2.1 Kg được bỏ vào lồng kính để bảo toàn tính mạng.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>2016-2018 - Giai đoạn đen tối</span>
+                                                    
+                                                    <p>Khoảng thời gian này tôi đánh mất chính mình, tôi dần trở thành mẫu người mà tôi ghét nhất.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>2021</span>
+                                                    
+                                                    <p>Bản thân dần thích nghi, tôi cảm thấy cuộc sống này còn khá nhiều điều thú vị đang chờ tôi khám phá. Vì thế nên tôi sống theo lý tưởng riêng của bản thân, đôi lúc khá dị biệt.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>2022</span>
+                                                    
+                                                    <p>Một thử thách mới mà tôi may mắn được có được, tôi cảm thấy khoảng thời gian sắp tới rất khó khăn. Tôi đã dần định nghĩa được trong đầu mục tiêu của bản thân trong giai đoạn tới, tôi sẽ cố gắng.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>Hiện Tại</span>
+                                                    
+                                                    <p>Tôi vẫn đang cố update bản thân, mặc dù tiến độ không được nhanh. Nhưng tôi có niềm tin rất lớn vào chính bản thân mình. <i class="fa-solid fa-clover fa-spin fa-spin-reverse"></i></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="experience-box">
+                                                <div class="title-experience-box">
+                                                    <h1>EDUCATION</h1>
+                                                </div>
+
+                                                <div class="experience-box-content">
+                                                    <span><i class="fa-solid fa-angles-right"></i>Tiểu Học - JUNKO</span>
+                                                    
+                                                    <p>Tôi rất vinh hạnh được học trong một ngôi trường mang ý nghĩa rất đặc biệt, nó được xây dựng dựa trên một nguyện vọng tuyệt vời và cao cả. Nếu bản muốn biết hãy tìm kiếm tên trường JUNKO ở trên Google nhé!</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>THCS - Trần Quý Cáp & THCS - Bình Chương</span>
+                                                    
+                                                    <p>Tôi học THCS ở 2 nơi khác nhau, mỗi nơi đều mang lại cho tôi những người bạn thật là tuyệt vời. Mặc dù đây là khoảng thời gian không được hoàn hảo đối với bản thân tôi.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>THPT - Nguyễn Duy Hiệu</span>
+                                                    
+                                                    <p>Đây là khoảng thời gian tôi có nhiều bạn bè nhất, họ thật tuyệt vời, họ cùng tôi trải qua một thời thanh xuân tươi đẹp. Tôi rất muốn quay lại khoảng thời gian này một lần nữa để trải qua thứ cảm giác tuyệt vời của thời niên thiếu.</p>
+
+                                                    <span><i class="fa-solid fa-angles-right"></i>Đại Học - VKU</span>
+                                                    
+                                                    <p>Có thể đây là chiến trường khốc liệt nhất mà tôi đang trải qua, xung quanh mọi người đều rất giỏi. Tôi cũng rất may mắn để có thể được gặp những người bạn đồng hành tốt như vậy, tôi cảm thấy khoảng thời gian này thật sự đang rất suôn sẻ, mặc dù việc học rất áp lực. <i class="fa-solid fa-clover fa-spin fa-spin-reverse"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image-resume">
+                                <img src="./image/about-me.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-home">
+                    <div class="top-page">
+                        <i class="fa-solid fa-xmark x-info"></i>
+                        <h1><i class="fa-solid fa-swatchbook"></i><span class="text-light">STORY</span> ME</h1>
+                    </div>
+    
+                    <div class="bot-page-info">
+                        <div class="story-index">
+                            <div class="story-box">
+                                <div class="story-slide">
+                                    <div class="title-story">
+                                        <h1>STORY ABOUT ME<div></div></h1>
+                                    </div>
+
+                                    <div class="story-content">
+                                        <span><i class="fa-solid fa-angles-right"></i>2004 - 2016 - Quảng Nam</span>
+
+                                        <p>Sống với mẹ và học tập ở Quảng Nam cho đến cuối năm lớp 6.</p>
+
+                                        <span><i class="fa-solid fa-angles-right"></i>2016 - Quảng Ngãi</span>
+
+                                        <p>Tôi chuyển vào Quảng Ngãi để học 2 năm THCS.</p>
+
+                                        <span><i class="fa-solid fa-angles-right"></i>2018 - Quảng Nam</span>
+
+                                        <p>Tôi quay trở về Quảng Nam để học lớp 9 và tiếp tục học cấp 3.</p>
+
+                                        <span><i class="fa-solid fa-angles-right"></i>25-05-2022 - Quảng Nam</span>
+
+                                        <p>Tốt nghiệp THPT tại Trường THPT Nguyễn Duy Hiệu.</p>
+
+                                        <span><i class="fa-solid fa-angles-right"></i>03-10-2022 - Đà Nẵng</span>
+
+                                        <p>Sinh viên của Trường Đại học CNTT & Truyền thông Việt - Hàn.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image-story">
+                                <img src="./image/about-me4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-home">
+                    <div class="top-page">
+                        <i class="fa-solid fa-xmark x-info"></i>
+                        <h1><i class="fa-solid fa-robot"></i><span class="text-light">HOBY</span> ME</h1>
+                    </div>
+    
+                    <div class="bot-page-info">
+                        <div class="hoby-index">
+                            <div class="hoby-box">
+                                <div class="hoby-slide">
+                                    <div class="title-hoby">
+                                        <h1>MY HOBBIES<div></div></h1>
+                                    </div>
+
+                                    <div class="hoby-content">
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-camera-retro"></i>
+                                                <h1>Taking photos</h1>
+                                            </div>
+                                        </a>
+
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-earth-americas"></i>
+                                                <h1>Wandering</h1>
+                                            </div>
+                                        </a>
+
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-gamepad"></i>
+                                                <h1>Play video games</h1>
+                                            </div>
+                                        </a>
+
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-film"></i>
+                                                <h1>Watching movies</h1>
+                                            </div>
+                                        </a>
+
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-headphones-simple"></i>
+                                                <h1>Listening to music</h1>
+                                            </div>
+                                        </a>
+
+                                        <a href="">
+                                            <div class="hoby-content-box">
+                                                <i class="fa-solid fa-book"></i>
+                                                <h1>Reading books</h1>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="image-hoby">
+                                <a href="https://www.instagram.com/rainbow__xu/" target="_blank"><img src="./image/about-me5.jpg" alt=""></a>
+
+                                <h1>Từ Mộng Khiết - Rainbow Xu <img src="./image/china.png" alt="" class="rainbow"></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-box">
+                <div class="footer-content">
+                    <h1>HOBY<div class="under-line"><span></span></div></h1>
+
+                    <div class="nav-footer">
+                        <a href="">Taking photos</a>
+                        <a href="">Wandering</a>
+                        <a href="">Play video games</a>
+                        <a href="">Watching movies</a>
+                        <a href="">Listening to music</a>
+                        <a href="">Reading books</a>
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <h1>GENERAL<div class="under-line"><span></span></div></h1>
+
+                    <div class="nav-footer">
+                        <a href="#">Home</a>
+                        <a href="./page/about.html">About</a>
+                        <a href="./page/project.html">Projects</a>
+                        <a href="./page/blog.html">Blog</a>
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <h1>SOCIAL MEDIA<div class="under-line"><span></span></div></h1>
+                    <div class="social-content">
+                        <button><a href="https://www.facebook.com/user.pyt" target="_blank"><i class="fa-brands fa-facebook"></i></a></button>
+                        <button><a href="https://www.instagram.com/h._ean/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
+                        <button><a href="https://github.com/ancoldly" target="_blank"><i class="fa-brands fa-github"></i></a></button>
+                        <button><a href="https://www.tiktok.com/@hgan187" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-box-next">
+                <div class="footer-content">
+                    <h1>GET IN TOUCH!<div class="under-line"><span></span></div></h1>
+    
+                    <p>If you want to contact me, please send me an email at <span class="span-email"><a href="mailto:onlyanwriter1@gmail.com">onlyanwriter1@gmail.com</a></span>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

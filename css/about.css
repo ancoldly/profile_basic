@@ -1,0 +1,143 @@
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #00FF99;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0,0,0, .2); 
+    --vang-color: #fad00c;
+    --body-card: #282a36;
+    --bg-card: #44475a;
+}
+
+.home-about {
+    width: 100%;
+    margin: 5rem 0;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: .1rem solid #6272a4;
+}
+
+.home-about .title-about {
+    width: 100%;
+}
+
+.home-about .title-about span {
+    color: cornflowerblue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-about .title-about h1 {
+    font-size: 4.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.home-about .home-about-box {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.home-about .home-about-box {
+    width: 100%;
+}
+
+.home-about .home-about-box .about-content p,
+.home-about-box .about-next .info-next p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+    text-align: left;
+}   
+
+.home-about .home-about-box .about-next {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.home-about .home-about-box .about-next button {
+    width: 20rem;
+    height: 5rem;
+    background: #44475a;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    margin: 3rem 0;
+    border: .2rem solid #44475a;
+}
+
+.home-about .home-about-box .about-next button a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-about .home-about-box .about-next button:hover {
+    background: transparent;
+    transition: .3s ease-in-out;
+}
+
+.home-about .home-about-box .about-next button:hover a {
+    color: cornflowerblue;
+    transition: .3s ease-in-out;
+}
+
+.home-about-box .about-next .avt-about {
+    width: 25%;
+}
+
+.home-about-box .about-next .info-next {
+    width: 75%;
+}
+
+.home-about-box .about-next .info-next a {
+    text-decoration: none;
+    color: var(--text-color);
+    border-bottom: .2rem solid cornflowerblue;
+}
+.home-about-box .about-next .avt-about img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.home-about .education-about {
+    width: 100%;
+    text-align: left;
+}
+
+.home-about .education-about h1 {
+    font-size: 2.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+    width: fit-content;
+}
+
+.home-about .education-about h1 div {
+    width: 35%;
+    height: .5rem;
+    background: #ffb86c;
+}
+
+.home-about .education-about .education-next {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.home-about .education-about .education-next p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.home-about .education-about .education-next p span {
+    color: #ffb86c;
+}
+
+.home-about .education-about .education-next p span:nth-child(1) {
+    font-size: .5rem;
+    color: #44475a;
+}

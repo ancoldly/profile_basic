@@ -1,0 +1,195 @@
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #00FF99;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0,0,0, .2); 
+    --vang-color: #fad00c;
+    --body-card: #282a36;
+    --bg-card: #44475a;
+}
+
+.home-blog {
+    width: 100%;
+    margin: 5rem 0;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: .1rem solid #6272a4;
+}
+
+.home-blog .title-blog {
+    width: 100%;
+}
+
+.home-blog .title-blog span {
+    color: cornflowerblue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-blog .title-blog h1 {
+    font-size: 4.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.home-blog .home-blog-box {
+    margin: 5rem 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-blog .home-blog-box .blog-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.home-blog-box .blog-content .title-content {
+    margin: 5rem 0;
+    text-align: left;
+    width: 100%;
+}
+
+.home-blog-box .blog-content .title-content h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.home-blog-box .blog-content .title-content p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.home-blog-box .blog-content .image-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.home-blog-box .blog-content .image-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.full-screen-image.active {
+    border-radius: 0rem !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #282a36;
+    z-index: 9999;
+}
+
+.read-more {
+    width: fit-content;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: .2rem solid cornflowerblue;
+}
+
+.home-blog-box .blog-content .audio-content {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: .2rem solid #282a36;
+    border-radius: 1rem;
+}
+
+.home-blog-box .blog-content .audio-content h1 {
+    font-size: 2rem;
+    color: cornflowerblue;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.home-blog-box .blog-content .audio-content h1 i {
+    font-size: 2.6rem;
+    margin-left: .5rem;
+}
+
+.blog-content .audio-content .audio-index {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.audio-content .audio-index .audio-play {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    border: .2rem solid #ff79c6;
+    margin: 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.audio-content .audio-index .audio-play:hover {
+    background: rgb(232, 229, 229);
+    transition: .3s ease-in-out;
+}
+
+.audio-index .audio-play .audio-next {
+    width: 100%;
+    height: 100%;
+}
+
+.audio-index .audio-play .audio-next img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.title-audio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-audio span {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.title-audio i {
+    color: cornflowerblue;
+    margin-left: .5rem;
+}
+
+.title-audio p {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.title-audio button {
+    background: transparent;
+    align-items: center;
+    display: flex;
+    font-size: 2.6em;
+}
+
+.time-audio {
+    color: cornflowerblue !important;
+}
